@@ -14,6 +14,8 @@
 		C52A8DBF2C1FCCDB00C89CEE /* WWDC2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8DBE2C1FCCDB00C89CEE /* WWDC2024Tests.swift */; };
 		C52A8DC92C1FCCDB00C89CEE /* WWDC2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8DC82C1FCCDB00C89CEE /* WWDC2024UITests.swift */; };
 		C52A8DCB2C1FCCDB00C89CEE /* WWDC2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8DCA2C1FCCDB00C89CEE /* WWDC2024UITestsLaunchTests.swift */; };
+		C52A8DD92C22F21B00C89CEE /* CustomTextAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8DD82C22F21B00C89CEE /* CustomTextAnimationView.swift */; };
+		C52A8DDB2C230B5800C89CEE /* DynamicLayoutDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52A8DDA2C230B5800C89CEE /* DynamicLayoutDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C52A8DC42C1FCCDB00C89CEE /* WWDC2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52A8DC82C1FCCDB00C89CEE /* WWDC2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2024UITests.swift; sourceTree = "<group>"; };
 		C52A8DCA2C1FCCDB00C89CEE /* WWDC2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C52A8DD82C22F21B00C89CEE /* CustomTextAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextAnimationView.swift; sourceTree = "<group>"; };
+		C52A8DDA2C230B5800C89CEE /* DynamicLayoutDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLayoutDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,9 @@
 			children = (
 				C52A8DAD2C1FCCD900C89CEE /* WWDC2024App.swift */,
 				C52A8DAF2C1FCCD900C89CEE /* ContentView.swift */,
+				C52A8DDA2C230B5800C89CEE /* DynamicLayoutDemo.swift */,
+				C52A8DD82C22F21B00C89CEE /* CustomTextAnimationView.swift */,
+				C52A8DD72C1FCCEC00C89CEE /* ScrollView */,
 				C52A8DB12C1FCCDA00C89CEE /* Assets.xcassets */,
 				C52A8DB32C1FCCDA00C89CEE /* Preview Content */,
 			);
@@ -125,6 +132,13 @@
 				C52A8DCA2C1FCCDB00C89CEE /* WWDC2024UITestsLaunchTests.swift */,
 			);
 			path = WWDC2024UITests;
+			sourceTree = "<group>";
+		};
+		C52A8DD72C1FCCEC00C89CEE /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52A8DB02C1FCCD900C89CEE /* ContentView.swift in Sources */,
+				C52A8DD92C22F21B00C89CEE /* CustomTextAnimationView.swift in Sources */,
+				C52A8DDB2C230B5800C89CEE /* DynamicLayoutDemo.swift in Sources */,
 				C52A8DAE2C1FCCD900C89CEE /* WWDC2024App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
